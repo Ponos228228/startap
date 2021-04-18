@@ -1,0 +1,207 @@
+.menu  {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	padding: 2%;
+}
+
+.menu a {
+	margin: 6%;
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	color: blue;
+}
+
+.header {
+	text-align: center;
+	background: url(img/polygons.png);
+	padding: 10%;
+	background-size: cover;
+	width: 60%;
+	margin: auto;
+}
+
+.header h1 {
+	color: white;
+}
+
+.header p {
+	color: white;
+}
+
+.header a {
+	background: white;
+	padding: 2%;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.about_company {
+	width: 80%;
+	margin: auto;
+}
+
+ h2 {
+	text-align: center;
+}
+
+.about_company img {
+	width: 35%;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.slogan {
+	text-align: center;
+}
+
+.team_flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.team_flex img {
+	width: 100%
+}
+
+.team_flex div {
+	width: 20%;
+	padding: 1%;
+	box-shadow: 0 0 10px grey;
+	
+}
+
+.profession {
+	color: grey;
+}
+
+.button {
+	text-decoration: none;
+	background: #30377a;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 3%;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background: red;
+}
+
+.tarifs_flex {
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	text-align: center;
+	align-items: center;
+}
+
+.tarifs {
+	background: grey;
+	color: white;
+	padding: 1% 0%;
+	margin-top: 3%;
+}
+
+.tarifs_flex ul {
+	background: white;
+	list-style: none;
+	padding: 0%;
+	width: 30%;
+}
+
+.black {
+	background: black;
+	color: white;
+}
+
+#blue {
+	background: #30377a;
+	color: white;
+	padding: 7%;
+}
+
+.tarifs_flex li {
+	padding: 3%;
+	border-bottom: solid lightgrey 1px;
+}
+
+.grey {
+	background: lightgrey;
+}
+
+.buy {
+	background: black;
+	width: 30%;
+	margin: auto;
+}
+
+span {
+	font-weight: bold;
+}
+
+.grey1 {
+	color: lightgrey;
+}
+
+.adress  {
+	background-image: url(img/address.png);
+}
+
+.phone {
+	background-image: url(img/phone.png);
+}
+
+.Email {
+	background: url(img/mail.png);
+}
+
+.adress, .phone, .Email {
+	background-repeat: no-repeat;
+	background-size: contain; 
+	padding-left: 30px;
+}
+
+input {
+	width: 100%;
+	border: none;
+	padding: 1%;
+	box-sizing: border-box;
+}
+
+.contact {
+	padding: 1%;
+	background: lightgrey;
+}
+
+button {
+	border-radius: 5px;
+	padding: 1%;
+	margin: auto;
+	display: block;
+	color: white;
+	background: black;
+}
+
+.footer {
+	background: black;
+	color: white;
+}
+
+.footer p {
+	margin: 0%;
+}
+
+body {
+	margin: 0%;
+}

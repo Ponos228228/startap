@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+	.menu a{
+		display: block;
+	}
+
+	.menu {
+		position: static;
+		padding: 0;
+	}
+
+	.flex {
+		display: block;
+	}
+
+	.about_company img {
+		width: 100%;
+	}
+
+	.team_flex {
+		display: block;
+	}
+
+	.team_flex div {
+		width: 100%;
+	}
+
+	.tarifs_flex {
+		display: block; 
+	}
+
+	.tarifs_flex ul {
+		width: 100%;
+	}
+
+	.team, .tarifs, .contact {
+		padding: 3%;
+	}
+}
